@@ -1,9 +1,66 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="4wSCvWANo4P-wW7x2iXL">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="D5L7JOQKXEdUBFVOOxas-7" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;arcSize=10;taskMarker=abstract;outline=none;symbol=general;bpmnShapeType=subprocess;isLoopSub=0;verticalAlign=top;align=left;spacingLeft=5;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="80" width="380" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="D5L7JOQKXEdUBFVOOxas-8" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="280" y="90" width="360" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="D5L7JOQKXEdUBFVOOxas-19" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#10739E;strokeColor=none;" vertex="1" parent="D5L7JOQKXEdUBFVOOxas-8">
+          <mxGeometry x="43.00153846153846" y="39.99941176470588" width="92.3076923076923" height="80.77235294117646" as="geometry" />
+        </mxCell>
+        <mxCell id="D5L7JOQKXEdUBFVOOxas-20" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#10739E;strokeColor=none;" vertex="1" parent="D5L7JOQKXEdUBFVOOxas-8">
+          <mxGeometry x="229.99846153846156" y="39.99941176470588" width="92.3076923076923" height="80.77235294117646" as="geometry" />
+        </mxCell>
+        <mxCell id="D5L7JOQKXEdUBFVOOxas-21" value="Back-end services" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="D5L7JOQKXEdUBFVOOxas-8">
+          <mxGeometry x="120" y="10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D5L7JOQKXEdUBFVOOxas-22" value="Document Processor Service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="D5L7JOQKXEdUBFVOOxas-8">
+          <mxGeometry x="-0.839999999999975" y="120.77000000000001" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D5L7JOQKXEdUBFVOOxas-23" value="Image Analysis Service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="D5L7JOQKXEdUBFVOOxas-8">
+          <mxGeometry x="201.14999999999998" y="120.77000000000001" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D5L7JOQKXEdUBFVOOxas-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D5L7JOQKXEdUBFVOOxas-9" target="D5L7JOQKXEdUBFVOOxas-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5L7JOQKXEdUBFVOOxas-9" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Users.svg;" vertex="1" parent="1">
+          <mxGeometry x="6" y="200" width="64" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="D5L7JOQKXEdUBFVOOxas-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D5L7JOQKXEdUBFVOOxas-10" target="D5L7JOQKXEdUBFVOOxas-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5L7JOQKXEdUBFVOOxas-10" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/API_Management_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="160" y="205" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D5L7JOQKXEdUBFVOOxas-14" value="Clients" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="277.39" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D5L7JOQKXEdUBFVOOxas-15" value="&lt;pre style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59,130,246,.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: none; scrollbar-width: thin; scrollbar-color: var(--bg-layer-4,#333942) transparent; font-family: &amp;quot;Fira Code&amp;quot;, &amp;quot;Fira Mono&amp;quot;, Menlo, Consolas, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace; font-feature-settings: normal; font-variation-settings: normal; font-size: 14px; margin-top: 0px; margin-bottom: 0px; color: rgb(56, 58, 66); background: rgb(250, 250, 250); overflow: auto; line-height: 1.5; border-radius: 0px; padding-inline: 1.14286em; letter-spacing: 0px; word-spacing: normal; direction: ltr; text-align: left; word-break: normal; tab-size: 2; hyphens: none; padding: 12px;&quot; class=&quot;!bg-layer-1 font-codeblock&quot;&gt;&lt;code style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59,130,246,.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid; scrollbar-width: thin; scrollbar-color: transparent transparent; font-family: var(--codeblock-font,var(--theme-font)); font-feature-settings: normal; font-variation-settings: normal; font-size: inherit; color: inherit; font-weight: inherit; background-color: transparent; border-radius: 0px; padding: 0px; line-height: inherit;&quot; class=&quot;font-codeblock&quot;&gt;API Gateway&lt;/code&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="262.39" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D5L7JOQKXEdUBFVOOxas-16" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="1">
+          <mxGeometry x="700" y="138.39" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="D5L7JOQKXEdUBFVOOxas-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D5L7JOQKXEdUBFVOOxas-20" target="D5L7JOQKXEdUBFVOOxas-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5L7JOQKXEdUBFVOOxas-26" value="Azure Kubernetes&lt;br&gt;&amp;nbsp;Service (AKS)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="358" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D5L7JOQKXEdUBFVOOxas-27" value="External&lt;br&gt;data stores" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="684" y="90" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D5L7JOQKXEdUBFVOOxas-28" value="SQL Database or&lt;br&gt;PostgreSQL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="205" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D5L7JOQKXEdUBFVOOxas-30" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="290" y="20" width="68" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
